@@ -46,4 +46,4 @@ class Pushable:
             self.end = self.start #by setting self.end to self.start (which is = None) is it making sure you don't add n2, n3?
         else:
             some_node.next = self.start #is this setting the next value to None so it doesn't append n1,n2,n3?
-            self.start = some_node
+            self.start = some_node #is this telling the above statment what self.start will equal?
